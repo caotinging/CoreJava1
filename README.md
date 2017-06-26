@@ -1,3 +1,3 @@
-#welcome
-this is my code of learning "Core Java 1". 
-It is a little mussy.
+#见到你很高兴
+这是我初学CoreJava卷一自己编写的示例代码
+看起来有点乱 哈哈
