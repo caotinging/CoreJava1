@@ -23,7 +23,7 @@ public class TaskDemo1 {
 		//然后检测file是否为一个目录且目录不为空
 		if(aFile.isDirectory() && aFile.list().length>0) {
 			//遍历该目录
-			File[] files = aFile.listFiles(new filter1());
+			File[] files = aFile.listFiles(new filter11());
 			for(File f: files) {
 				if(f.isDirectory())
 					getSmall(f);
@@ -35,7 +35,7 @@ public class TaskDemo1 {
 			System.out.println(aFile);
 	}
 }
-class filter1 implements FileFilter {
+class filter11 implements FileFilter {
 	public boolean accept(File pathname) {
 		//获取文件小于200k的文件 如果是目录直接true
 		if(pathname.isDirectory())
